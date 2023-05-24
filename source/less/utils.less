@@ -22,6 +22,21 @@ body {
 
 .wrapper {
   padding: 0 20px;
+  width: 320px;
+  box-sizing: border-box;
+}
+
+@media (min-width: @tablet-width) {
+  .wrapper {
+    width: 769px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .wrapper {
+    width: 1440px;
+
+  }
 }
 
 .title {
